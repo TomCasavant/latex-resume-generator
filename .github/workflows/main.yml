@@ -24,7 +24,7 @@ jobs:
         run: |
           python main.py
       - name: Build pdf
-        run: pdflatex output/resume.tex -o output/resume.pdf
+        run: pdflatex -aux-directory=log/ -output-directory=output/ output/resume.tex
       - name: Create pull request
         uses: peter-evans/create-pull-request@v3
         with: 
