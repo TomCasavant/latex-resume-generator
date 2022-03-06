@@ -34,5 +34,5 @@ jobs:
           destination_branch: "master"
           pr_title: "[automated] Merge PDF into master"
           pr_body: "Automated PR after generating resume pdf with pdflatex build"
-          pr_labels: "automated-pdf"
+          pr_label: "automated-pdf"
           github_token: ${{ secrets.GITHUB_TOKEN }}
