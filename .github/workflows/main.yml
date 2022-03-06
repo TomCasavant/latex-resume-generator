@@ -25,10 +25,14 @@ jobs:
           python main.py
       - name: Build pdf
         run: pdflatex -aux-directory=log/ -output-directory=output/ output/resume.tex
-      - name: Create pull request
-        uses: peter-evans/create-pull-request@v3
-        with: 
-          commit-message: Generate resume pdf with pdflatex build
-          branch: pdflatex_build
-          delete-branch: true
-          title: '[CI] Generate Resume PDF'
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "[automated] Generate PDF from resume.tex"
+      - uses: repo-sync/pull-request@v2
+        name: Create Pull Request
+        with:
+          destination_branch: "master"
+          pr_title: "[automated] Merge PDF into master"
+          pr_body: "Automated PR after generating resume pdf with pdflatex build"
+          pr_labels: ["automated-pdf"]
+          github_token: ${{ secrets.GITHUB_TOKEN }}
