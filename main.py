@@ -40,10 +40,13 @@ class LaTeXResume:
             projects += f"{{{project.description}}}{{{project.source}}}\n"
         return projects
 
+    def escape_string(self, string):
+        return string.replace('#', '\\#')
+
     def format_skills(self):
-        advanced_skills = [s.name for s in self.resume.skills if s.level == "Advanced"]
-        intermediate_skills = [s.name for s in self.resume.skills if s.level == "Intermediate"]
-        basic_skills = [s.name for s in self.resume.skills if s.level == "Beginner"]
+        advanced_skills = [self.escape_string(s.name) for s in self.resume.skills if s.level == "Advanced"]
+        intermediate_skills = [self.escape_string(s.name) for s in self.resume.skills if s.level == "Intermediate"]
+        basic_skills = [self.escape_string(s.name) for s in self.resume.skills if s.level == "Beginner"]
         skills = f"\\item{{\\textbf{{Advanced Skills}}{{: {','.join(advanced_skills)}}}\n}}"
         skills += f"\\item{{\\textbf{{Intermediate Skills}}{{: {','.join(intermediate_skills)}}}\n}}"
         skills += f"\\item{{\\textbf{{Beginner Skills}}{{: {','.join(basic_skills)}}}\n}}"
