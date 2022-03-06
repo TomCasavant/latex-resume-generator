@@ -45,6 +45,10 @@ coverage.xml
 # Django stuff:
 *.log
 *.pot
+
+# LaTex temp files:
+*.aux
+*.out
 log/*
 
 # Sphinx documentation
