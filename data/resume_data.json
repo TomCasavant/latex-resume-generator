@@ -29,7 +29,7 @@
         },
         {
           "name": "Software I and II:",
-          "description": "The Software courses involved creating software from contracts (design-by-contract principles), \nbasic algorithms, data representation, and best-practice programming."
+          "description": "The Software courses involved creating software from contracts (design-by-contract principles), basic algorithms, data representation, and best-practice programming."
         },
         {
           "name": "Fundamentals of Software Engineering I and II",
@@ -37,7 +37,7 @@
         },
         {
           "name": "Systems I and II",
-          "description": "The Systems courses were low-level programming courses (C-programming at machine \nlevel, assembly code) and how computers work at the operating system level."
+          "description": "The Systems courses were low-level programming courses (C-programming at machine level, assembly code) and how computers work at the operating system level."
         }
       ]
     }
@@ -51,7 +51,7 @@
         "start": "2020-06-17",
         "end": "2020-08-01"
       },
-      "description": "In-between semesters, I made myself essential over the course of the pandemic. During my \ntime with Battelle, I worked with their CCDS operation in Houston. I took on the position of \nSafety Lead for the latter part of my time at Battelle."
+      "description": "In-between semesters, I made myself essential over the course of the pandemic. During my time with Battelle, I worked with their CCDS operation in Houston. I took on the position of Safety Lead for the latter part of my time at Battelle."
     },
     {
       "title": "Classroom Operations Student Assistant",
@@ -61,7 +61,7 @@
         "start": "2019-10-06",
         "end": "2021-04-20"
       },
-      "description": "I develop teamwork as our small team of student employees help guarantee club spaces \naround campus are organized and I work with clubs to ensure spaces are used properly."
+      "description": "I develop teamwork as our small team of student employees help guarantee club spaces around campus are organized and I work with clubs to ensure spaces are used properly."
     },
     {
       "title": "Research Assistant (Website Manager)",
@@ -71,7 +71,7 @@
         "start": "2018-11-06",
         "end": "2019-05-01"
       },
-      "description": "I semi-regularly update Dr. Leonard Brillson’s (ECE Professor) website which allows me to\nget experience working with the CSE server on campus."
+      "description": "I semi-regularly update Dr. Leonard Brillson’s (ECE Professor) website which allows me to get experience working with the CSE server on campus."
     },
     {
       "title": "Undergrad TA for CSE 1222 (C++ Programming course)",
@@ -144,7 +144,7 @@
     },
     {
       "name": "FEH Robot Program: 1st Place Design",
-      "description": " This was a 4-person honors project course that lasted one \nsemester. It involved designing and programming a robot to navigate an obstacle \ncourse. My team was awarded 1st Place in Design",
+      "description": " This was a 4-person honors project course that lasted one semester. It involved designing and programming a robot to navigate an obstacle course. My team was awarded 1st Place in Design",
       "date": "2018-04-24"
     }
   ],
@@ -157,22 +157,22 @@
     {
       "name": "Open Source Club",
       "positions": ["Member", "Treasurer", "President"],
-      "description": " As president of this club, I have gained management experience \nwhile speaking with members of the Columbus tech community. I have also earned \npublic speaking experience through my Open Source presentations"
+      "description": " As president of this club, I have gained management experience while speaking with members of the Columbus tech community. I have also earned public speaking experience through my Open Source presentations"
     },
     {
       "name": "Hack OH/IO",
       "positions": ["Participant"],
-      "description": "Worked with a team of 4 (first-year) and a team of 2 (second\nyear) to design a project over the course of 24 hours. The first year we designed an \nAndroid app for runners, the second year we created a raspberry-pi powered RC car."
+      "description": "Worked with a team of 4 (first-year) and a team of 2 (second year) to design a project over the course of 24 hours. The first year we designed an Android app for runners, the second year we created a raspberry-pi powered RC car."
     },
     {
       "name": "Make OH/IO",
       "positions": ["Participant"],
-      "description": "Worked with a team of 3 people to build an Arduino\ncontrolled device over the course of 24 hours"
+      "description": "Worked with a team of 3 people to build an Arduino controlled device over the course of 24 hours"
     },
     {
       "name": "PyOhio ",
       "positions": ["Organizer", "Attendee"],
-      "description": " PyOhio is a yearly conference that takes \nplace in Columbus for python programmers, as a member of the organizing committee I \nwork with the other members to ensure the conference is a success. "
+      "description": " PyOhio is a yearly conference that takes place in Columbus for python programmers, as a member of the organizing committee I work with the other members to ensure the conference is a success. "
     }
   ],
   "projects": [
@@ -195,9 +195,9 @@
       "languages": ["Python"]
     },
     {
-      "name": "SpotifyTrackComparison",
+      "name": "SpotifyTrackComparion",
       "source": "https://github.com/TomCasavant/SpotifyTrackComparison",
-      "description": "A simple Java Swing application that allows you to compare the audio features of 2 songs using the Spotify API.",
+      "description": "A simple Java Swing application that allows you to compare the audio features of 2 songs using hte Spotify API.",
       "languages": ["Java"]
     },
     {
