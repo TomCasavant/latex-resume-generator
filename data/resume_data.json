@@ -199,7 +199,7 @@
       "source": "https://github.com/TomCasavant/SpotifyTrackComparison",
       "description": "A simple Java Swing application that allows you to compare the audio features of 2 songs using the Spotify API.",
       "languages": ["Java"]
-    },g
+    },
     {
       "name": "Grouptivity",
       "source": "https://github.com/TomCasavant/CSE5236",
