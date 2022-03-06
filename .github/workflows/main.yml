@@ -30,4 +30,5 @@ jobs:
         with: 
           commit-message: Generate resume pdf with pdflatex build
           branch: pdflatex_build
+          delete-branch: true
           title: '[CI] Generate Resume PDF'
