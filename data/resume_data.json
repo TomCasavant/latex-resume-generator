@@ -1,0 +1,210 @@
+{
+  "name": "Tom Casavant",
+  "email": "tfcasavant@gmail.com",
+  "phone": "5137818491",
+  "website": "http://www.tomcasavant.com",
+  "education": [
+    {
+      "type": "University",
+      "name": "The Ohio State University",
+      "location": "Columbus, OH",
+      "degree": [
+        {
+          "type": "Bachelor",
+          "name": "Computer Science and Engineering"
+        }, {
+          "type": "Minor",
+          "name": "Business"
+        }
+      ],
+      "dates": {
+        "start": "2017-08-22",
+        "end": "2021-05-09"
+      },
+      "gpa": 3.33,
+      "courses": [
+        {
+          "name": "CSE 3901: Project: Web Application Design, Development, and Documentation",
+          "description": "This was a project course where a group of 4 students worked together in an agile development scenario to produce web applications. I was the project manager for 2 of the 6 projects. The course culminated in a 3-week open-ended project where my team developed a web application that allowed renters to give reviews of landlords/properties. It included a login management system and a database of users and properties."
+        },
+        {
+          "name": "Software I and II:",
+          "description": "The Software courses involved creating software from contracts (design-by-contract principles), \nbasic algorithms, data representation, and best-practice programming."
+        },
+        {
+          "name": "Fundamentals of Software Engineering I and II",
+          "description": "These courses focused on algorithm/graph analysis, data structures"
+        },
+        {
+          "name": "Systems I and II",
+          "description": "The Systems courses were low-level programming courses (C-programming at machine \nlevel, assembly code) and how computers work at the operating system level."
+        }
+      ]
+    }
+  ],
+  "employment": [
+    {
+      "title":"CCDS Decontamination Technician",
+      "company": "Battelle",
+      "location": "Houston, TX",
+      "dates": {
+        "start": "2020-06-17",
+        "end": "2020-08-01"
+      },
+      "description": "In-between semesters, I made myself essential over the course of the pandemic. During my \ntime with Battelle, I worked with their CCDS operation in Houston. I took on the position of \nSafety Lead for the latter part of my time at Battelle."
+    },
+    {
+      "title": "Classroom Operations Student Assistant",
+      "company": "Ohio State University",
+      "location": "Columbus, OH",
+      "dates": {
+        "start": "2019-10-06",
+        "end": "2021-04-20"
+      },
+      "description": "I develop teamwork as our small team of student employees help guarantee club spaces \naround campus are organized and I work with clubs to ensure spaces are used properly."
+    },
+    {
+      "title": "Research Assistant (Website Manager)",
+      "company": "Ohio State University - Dr. Leonard Brillson",
+      "location": "Columbus, OH",
+      "dates": {
+        "start": "2018-11-06",
+        "end": "2019-05-01"
+      },
+      "description": "I semi-regularly update Dr. Leonard Brillson’s (ECE Professor) website which allows me to\nget experience working with the CSE server on campus."
+    },
+    {
+      "title": "Undergrad TA for CSE 1222 (C++ Programming course)",
+      "company": "Ohio State University",
+      "location": "Columbus, OH",
+      "dates": {
+        "start": "2019-01-07",
+        "end": "2019-05-01"
+      },
+      "description": "I taught students basic concepts in C++ programming for CSE professor Dr. Naeem Shareef"
+    },
+    {
+      "title": "Software Developer",
+      "company": "Funk Music Hall Of Fame",
+      "location": "Columbus, OH",
+      "dates": {
+        "start": "2021-01-07",
+        "end": "2021-05-01"
+      },
+      "description": " I worked on an engineering team to design a web app for the Funk Music Hall of Fame"
+    },
+    {
+      "title": "Software Developer I",
+      "company": "TRC",
+      "location": "Columbus, OH",
+      "dates": {
+        "start": "2021-05-24",
+        "end": "PRESENT"
+      },
+      "description": "Develop QGIS and SPIDACalc plugins to aid in the auditing of utility poles around the United States, as well as creating smaller scripts to handle a variety of repetitive tasks throughout the company."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "Advanced",
+      "description": "I have 5+ years of experience working with python. My projects have involved working with a variety of APIs (the Twitter API, Spotify API, etc.) as well as some data collection and analysis."
+    },
+    {
+      "name": "Groovy",
+      "level": "Advanced",
+      "description": "While I have only worked with Groovy (a language based in Java) in my position at TRC, it remains one of the more integral languages for that position. "
+    },
+    {
+      "name": "Java",
+      "level": "Intermediate",
+      "description": "Most of my work in pure java was been minimal, but I have worked in the language for over 3 years and it was one of the primary languages during my college experience."
+    },
+    {
+      "name": "C++/C/C#",
+      "level": "Intermediate",
+      "description": "These were all used in my college career, I have 2-3 years of experience in all of them though I am probably most experienced with C++"
+    },
+    {
+      "name": "Ruby",
+      "level": "Intermediate",
+      "description": "I have not used Ruby as much as these other languages, but I have done some web development and data collection using Ruby."
+    },
+    {
+      "name": "Matlab",
+      "level": "Beginner",
+      "description": "I have only used Matlab for 1 or 2 classes in my college career"
+    }
+  ],
+  "achievements": [
+    {
+      "name": "Eagle Scout",
+      "description": "Most of my earliest leadership experience came from my years in the BSA, I received the Eagle Scout badge my Senior year of High School.",
+      "date": "2017-06-27"
+    },
+    {
+      "name": "FEH Robot Program: 1st Place Design",
+      "description": " This was a 4-person honors project course that lasted one \nsemester. It involved designing and programming a robot to navigate an obstacle \ncourse. My team was awarded 1st Place in Design",
+      "date": "2018-04-24"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Epsilon Tau Pi",
+      "positions": ["Member", "Service Committee Chair"],
+      "description": " This fraternity allows me to continue to perform community service around Columbus with other Eagle Scouts at Ohio State University."
+    },
+    {
+      "name": "Open Source Club",
+      "positions": ["Member", "Treasurer", "President"],
+      "description": " As president of this club, I have gained management experience \nwhile speaking with members of the Columbus tech community. I have also earned \npublic speaking experience through my Open Source presentations"
+    },
+    {
+      "name": "Hack OH/IO",
+      "positions": ["Participant"],
+      "description": "Worked with a team of 4 (first-year) and a team of 2 (second\nyear) to design a project over the course of 24 hours. The first year we designed an \nAndroid app for runners, the second year we created a raspberry-pi powered RC car."
+    },
+    {
+      "name": "Make OH/IO",
+      "positions": ["Participant"],
+      "description": "Worked with a team of 3 people to build an Arduino\ncontrolled device over the course of 24 hours"
+    },
+    {
+      "name": "PyOhio ",
+      "positions": ["Organizer", "Attendee"],
+      "description": " PyOhio is a yearly conference that takes \nplace in Columbus for python programmers, as a member of the organizing committee I \nwork with the other members to ensure the conference is a success. "
+    }
+  ],
+  "projects": [
+    {
+      "name": "GPXtoHeatmap",
+      "source": "https://github.com/TomCasavant/GPXtoHeatmap",
+      "description": "A python script that takes in a GPX file and outputs a heatmap of the points in the GPX file. The heatmap is generated using the Google Maps API.",
+      "languages": ["Python", "Javascript"]
+    },
+    {
+      "name":"GiphyMaubot",
+      "source": "https://github.com/TomCasavant/GiphyMaubot",
+      "description": "A plugin for Maubot (a matrix chat bot) that allows users to search for gifs using the Giphy and Tenor API.",
+      "languages": ["Python"]
+    },
+    {
+      "name": "PollMaubot",
+      "source": "https://github.com/TomCasavant/PollMaubot",
+      "description": "A plugin for Maubot (a matrix chat bot) that allows users to create polls in a matrix chatroom.",
+      "languages": ["Python"]
+    },
+    {
+      "name": "SpotifyTrackComparion",
+      "source": "https://github.com/TomCasavant/SpotifyTrackComparison",
+      "description": "A simple Java Swing application that allows you to compare the audio features of 2 songs using hte Spotify API.",
+      "languages": ["Java"]
+    },
+    {
+      "name": "Grouptivity",
+      "source": "https://github.com/TomCasavant/CSE5236",
+      "description": "A 3-person group project for a Mobile App Development course, that makes it easy to find and plan activities with a group",
+      "languages": ["Java"]
+    }
+  ]
+}
