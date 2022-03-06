@@ -1,0 +1,33 @@
+name: CI
+on:
+  push:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install texlive
+        run: sudo apt install texlive-base 
+      - name: Install texlive-latex-extra
+        run: sudo apt-get install texlive-latex-extra
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8 #install the python needed
+      - name: execute py script # run the run.py to get the latest data
+        run: |
+          python main.py
+      - name: Build pdf
+        run: pdflatex output/resume.tex -o output/resume.pdf
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v3
+        with: 
+          commit-message: Generate resume pdf with pdflatex build
+          branch: pdflatex_build
+          title: '[CI] Generate Resume PDF'
